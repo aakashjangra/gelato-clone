@@ -1,13 +1,13 @@
 import styles from './WhyChooseGelato.module.css'
 
 export const WhyChooseGelato = () => {
-  return <section className="px-40 pb-16">
-    <h2 className="font-semibold text-6xl text-center py-10 tracking-tight">Why choose Gelato</h2>
-    <div className="pt-6 grid grid-cols-2 items-center">
+  return <section className="px-6 sm:px-14 xl:px-40 pb-4 sm:pb-16">
+    <h2 className="font-semibold text-3xl md:text-6xl text-center py-5 md:py-10 tracking-tight">Why choose Gelato</h2>
+    <div className="md:pt-6 grid md:grid-cols-2 items-center">
       <div>
         <img src="https://a.storyblok.com/f/165154/1450x1450/97cf3c3c7e/0341_2024-brand-vi-rollout-dedicated-hero-1450x1450-1.png/m/1000x0/" alt="" />
       </div>
-      <div class={`${styles.points} pl-12`}>
+      <div class={`${styles.points} md:pl-12`}>
           <h4>▻ World's largest print-on-demand network</h4>
           <p>140+ print partners in 32 countries. Gelato is a truly global service.</p>
           <h4>▻ Sell globally, produce locally</h4>

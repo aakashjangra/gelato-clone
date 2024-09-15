@@ -1,5 +1,5 @@
 export const Stats = () => {
-  return <section className="px-32 py-8 bg-lightPink font-semibold flex justify-evenly gap-24">
+  return <section className="hidden md:flex px-6 sm:px-14 xl:px-32 py-8 bg-lightPink font-semibold justify-evenly gap-24">
     <div className="flex flex-col items-center">
       <span className="text-3xl">90%</span>
       <span className="text-2xl font-medium text-center">
