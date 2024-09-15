@@ -1,0 +1,3 @@
+export const Headset = ({color="default"}) => {
+  return <img className={`${color==='invert'? 'invert': ''}`} src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iNDhweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iNDhweCIgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIgb3BhY2l0eT0iLjEiLz48cGF0aCBkPSJNMTIgMWMtNC45NyAwLTkgNC4wMy05IDl2N2MwIDEuNjYgMS4zNCAzIDMgM2gzdi04SDV2LTJjMC0zLjg3IDMuMTMtNyA3LTdzNyAzLjEzIDcgN3YyaC00djhoNHYxaC03djJoNmMxLjY2IDAgMy0xLjM0IDMtM1YxMGMwLTQuOTctNC4wMy05LTktOXoiLz48L3N2Zz4=" />
+}
