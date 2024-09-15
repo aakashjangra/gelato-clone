@@ -1,4 +1,4 @@
-import { Dropdown } from "../../../iconComponents/Dropdown";
+import { Dropdown } from "../../iconComponents/Dropdown";
 
 export const Button = ({icon = null, text, dropdown=false}) => {
   return <button className="flex py-2 px-5 gap-2">

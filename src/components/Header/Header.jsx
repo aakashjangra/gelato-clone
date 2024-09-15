@@ -3,7 +3,7 @@ import { Cart } from "../../iconComponents/Cart";
 import { CompanyIcon } from "../../iconComponents/CompanyIcon";
 import { Globe } from "../../iconComponents/Globe";
 import { Headset } from "../../iconComponents/Headset";
-import { Button } from "./Button/Button";
+import { Button } from "../Button/Button";
 
 export const Header = () => {
   return <header className="sticky top-0 z-1000 bg-white">

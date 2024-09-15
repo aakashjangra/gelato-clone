@@ -1,4 +1,4 @@
-import { Button } from "../Header/Button/Button"
+import { Button } from "../Button/Button"
 
 export const HeroSection = () => {
   return <div className="grid grid-cols-2 px-32 items-center">

@@ -1,35 +1,45 @@
-import { CompanyIcon } from "../../iconComponents/CompanyIcon"
 import { CompanyIconWhite } from "../../iconComponents/CompanyIconWhite"
 import { Facebook } from "../../iconComponents/Facebook"
 import { Instagram } from "../../iconComponents/Instagram"
 import { LinkedIn } from "../../iconComponents/LinkedIn"
 import { Tiktok } from "../../iconComponents/Tiktok"
 import { Youtube } from "../../iconComponents/Youtube"
-import { Button } from "../Header/Button/Button"
+import { Button } from "../Button/Button"
 
 export const Footer = () => {
   return <footer className="bg-black text-white px-32 py-10">
     <div className="flex justify-between pb-8">
-      <div>
+      <div className="">
         <CompanyIconWhite />
       </div>
-      <div className="flex items-center gap-10">
-        <p>Find Gelato on:</p>
-        <div className="h-6 w-6">
-          <Instagram />
+      <div className="flex items-center gap-6">
+        <p className="tracking-tighter">Find Gelato on:</p>
+        <div className="p-2 rounded-[50%] cursor-pointer hover:bg-themeGray">
+          <div className="h-6 w-6">
+            <Instagram />
+          </div>
         </div>
-        <div className="h-6 w-6">
-          <Facebook />
+        <div className="p-2 rounded-[50%] cursor-pointer hover:bg-themeGray">
+          <div className="h-6 w-6">
+            <Facebook />
+          </div>
         </div>
-        <div className="h-6 w-6">
-          <Tiktok />
+        <div className="p-2 rounded-[50%] cursor-pointer hover:bg-themeGray">
+          <div className="h-6 w-6">
+            <Tiktok />
+          </div>
         </div>
-        <div className="h-6 w-6">
-          <LinkedIn />
+        <div className="p-2 rounded-[50%] cursor-pointer hover:bg-themeGray">
+          <div className="h-6 w-6">
+            <LinkedIn />
+          </div>
         </div>
-        <div className="h-6 w-6">
-          <Youtube />
+        <div className="p-2 rounded-[50%] cursor-pointer hover:bg-themeGray">
+          <div className="h-6 w-6">
+            <Youtube />
+          </div>
         </div>
+        
       </div>
     </div>
     <div className="grid grid-cols-3 gap-4">
